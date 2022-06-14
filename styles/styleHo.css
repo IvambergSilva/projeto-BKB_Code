@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --fontNunito: 'Nunito', sans-serif;
+    --fontMontserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #F5EBDC 64.82%, #F5EBDC00 100%, #FFFFFF 97.72%);
+}
+
+main figure {
+    text-align: center;
+    margin: 40px 0;
+}
+
+main figure img {
+    max-width: 600px;
+    width: 100%;
+}
+
+main button {
+    display: block;
+    margin: 0 auto 57px;
+    background: #DB3B1D;
+    border: none;
+    border-radius: 15px;
+    max-width: 333px;
+    height: 96px;
+    width: 100%;
+}
+
+main button a {
+    font: 400 35px/48px var(--fontNunito);
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 720px) {
+    main button {
+        width: 200px;
+        height: 57px;
+    }
+    main button a {
+        font: 400 25px/48px var(--fontNunito);
+    }
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F7F5F0;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #D62200;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1340px;
+    padding: 30px;
+    margin: auto;
+}
+
+header .logoEvento img {
+    width: 200px;
+    height: 53px;
+}
+
+footer {
+    max-width: max-content;
+    margin: auto;
+}
+
+footer p {
+    font: 500 15px/22px var(--fontMontserrat);
+    max-width: 200px;
+    color: #502314;
+    margin-bottom: 18px;
+    max-width: 720px;
+    text-align: center;
+    margin: auto;
+    padding: 0 20px;
+}
+
+footer .metodos {
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+    footer .metodos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    header section .logoEvento {
+        margin-bottom: 20px;
+    }
+    
+    header .logoEvento img {
+        width: 90px;
+        height: 23px;
+    }
+    header .logoParceria img {
+        width: 90px;
+        height: 34px;
+    }
+
+    footer p {
+        font: 500 15px/22px var(--fontMontserrat);
+    }
+
+}
